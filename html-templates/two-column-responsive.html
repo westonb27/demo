@@ -1,3 +1,29 @@
+<style>
+	/* 2 equal-width columns Layout Pattern CSS */
+	@media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] img {
+            width: 100%;
+            height: auto !important;
+        }
+	    td[class="pattern"] .col{
+	        width: 50%;
+	    }
+	}
+    @media only screen and (max-width: 450px) {
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col1{
+            margin-bottom: 16px;
+        }
+        td[class="pattern"] .description span {
+            display: block;
+            max-width: 300px;
+        }
+    }
+</style>
 <table cellpadding="0" cellspacing="0">
     <tr>
         <td class="pattern" width="600" align="center">
